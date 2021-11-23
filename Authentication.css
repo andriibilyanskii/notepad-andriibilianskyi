@@ -1,0 +1,49 @@
+#authform {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+}
+
+#authform input {
+    margin: 0 5px;
+    width: auto;
+}
+
+#formdiv {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 650px) {
+    #formdiv {
+        flex-direction: column;
+        padding: 0 5px 0 0;
+    }
+
+    #formdiv input:first-of-type {
+        margin: 0 0 5px 0;
+    }
+
+    #formdiv input:last-of-type {
+        margin: 5px 0 0 0;
+    }
+
+    #authform input {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    #authform {
+        flex-direction: column;
+    }
+
+    #authform input {
+        margin: 5px;
+        width: auto;
+    }
+
+    #formdiv {
+        padding: 0;
+    }
+}

@@ -1,0 +1,70 @@
+.container h2 {
+  text-align: center;
+  margin: 25px auto;
+}
+
+.list {
+  text-align: left;
+  max-width: 750px;
+  margin: auto;
+}
+
+.submit-form {
+  max-width: 300px;
+  margin: auto;
+}
+
+.edit-form {
+  max-width: 300px;
+  margin: auto;
+}
+
+.button-submit {
+  margin-top: 5px;
+}
+
+.published {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin: 5px 0;
+}
+
+.listbuttons {
+  margin: 0 5px !important;
+}
+
+.notepad-list {
+  padding: 25px 0;
+}
+
+.today {
+  border: 0.19rem solid rgba(255, 0, 0, 0.9) !important;
+  margin: 1px 0;
+}
+
+.tomorrow {
+  border: 0.19rem solid rgb(255, 155, 0, 0.9) !important;
+  margin: 1px 0;
+}
+
+.yesterday {
+  border: 0.19rem solid rgb(255, 0, 0, 0.5) !important;
+  margin: 1px 0;
+}
+
+.buttonsAfterList {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+.buttonsAfterList button {
+  margin: 5px !important;
+  padding: 10px !important;
+}
